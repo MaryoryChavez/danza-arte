@@ -12,28 +12,19 @@
 </head>
 <body>
 	<header>
-		<div class="grid-container">		
-			<div class="grid-100">
-				<p>ESCUELA DE DANZA</p>
-			</div>
-		</div>
-		<nav class="col-md-12 col-md-offset-12 "> 
-					<ul>
-						<li>
-							<a href="nosotros" class="#">Nosotros</a>
-						</li>
-						<li>
-							<a href="clases" class="#">Clases</a>
-						</li>
-						<li>
-							<a href="blog" class="#">Blog</a>
-						</li>
-						<li>
-							<a href="#" class="#">Contáctanos</a>
-						</li>
-					</ul>
-				</nav>
-	</header>
+        <div class="container">
+            <div class="row">
+                <h1><a href="index.html">ESCUELA DE DANZA</a></h1>
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="clases.html">Clases</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
 	<section class="clasesVarias">
 		<div class="grid-container">
 			<div class="grid-100">
@@ -83,5 +74,62 @@
 			</div>
 		</div>
 	</section>
+	
+	<div class="contactanos" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contáctanos</h2>
+                    <hr>
+                    <form class="form-horizontal" action=" " method="" id="contact_form">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="first_name" placeholder="Nombre" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email" placeholder="E-Mail" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="comment" placeholder="Mensaje" rows="6"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boton">
+                                <a href="#">ENVIAR</a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>© Escuela de danza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
