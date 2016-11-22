@@ -1,1 +1,46 @@
-/* Inserta tu codigo aqui */
+/* CSS BLOG */
+
+.blog {
+    padding: 0 20px;
+    background-color: #f4f4f4;
+}
+
+.blog h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    font-size: 30px;
+}
+
+
+.blog img {
+    width: 100%;
+}
+
+.blog .articulos {
+    margin: 50px 0;
+    background-color: #dddee0;
+}
+
+.blog h2 {
+    font-size: 25px;
+    color: #030406;
+}
+
+.blog .fecha {
+    color: #c3c4c6;
+}
+
+.blog .descripcionBlog {
+    color: darkgrey;
+    font-size: 18px;
+}
+
+.verMas {
+    background-color: #1a2952;
+    color: white;
+    text-align: center;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 300px;
+    padding: 5px auto;
+}

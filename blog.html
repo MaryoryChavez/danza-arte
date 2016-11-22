@@ -1,22 +1,143 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-	<title>Escuela de Danza</title>
-	
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/blog.css">
-	
+
+    <title>Escuela de Danza</title>
+
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 
 <body>
-	<!-- Inserta tu código aqui -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1>ESCUELA DE DANZA</h1>
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="clases.html">Clases</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section class="blog">
+        <div class="grid-container">
+            <div class="row">
+                <h1>BLOG</h1>
+            </div>
+            <div class="row articulos">
+                <div class="col-md-4">
+                    <img src="img/blog1.jpg">
+                </div>
+                <div class="col-md-8">
+                    <h2>TÍTULO DEL ARTÍCULO</h2>
+                    <p class="fecha"><i>Fecha</i></p>
+                    <p class="descripcionBlog">Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.
+                        <br> Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.</p>
+                    <div class="verMas">Ver Más</div>
+                </div>
+            </div>
+            <div class="row articulos">
+                <div class="col-md-4">
+                    <img src="img/profesor_5.jpg">
+                </div>
+                <div class="col-md-8">
+                    <h2>TÍTULOol DEL ARTÍCULO</h2>
+                    <p class="fecha"><i>Fecha</i></p>
+                    <p class="descripcionBlog">Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.
+                        <br> Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.</p>
+                    <div class="verMas">Ver Más</div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="row articulos">
+                <div class="col-md-4">
+                    <img src="img/instructor_1.jpg">
+                </div>
+                <div class="col-md-8">
+                    <h2>TÍTULO DEL ARTÍCULO</h2>
+                    <p class="fecha"><i>Fecha</i></p>
+                    <p class="descripcionBlog">Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.
+                        <br> Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.Descripción del curso dos líneas como máximo.</p>
+                    <div class="verMas">Ver Más</div>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <div class="contactanos" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contáctanos</h2>
+                    <hr>
+                    <form class="form-horizontal" action=" " method="" id="contact_form">
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="first_name" placeholder="Nombre" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email" placeholder="E-Mail" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="comment" placeholder="Mensaje" rows="6"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boton">
+                                <a href="#">ENVIAR</a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>© Escuela de danza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
