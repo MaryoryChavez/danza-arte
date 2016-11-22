@@ -28,8 +28,15 @@ header ul {
 
 li {
     display: inline-block;
-    margin: 0 30px;
+    margin-right: 60px;
 }
+
+header a{
+    color: #737f98;
+}
+
+
+/*---------------------------- SECTION CONTACTO ----------------------------*/
 
 
 .contactanos{

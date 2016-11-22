@@ -1,1 +1,32 @@
-/* Inserta tu codigo aqui */
+/*---------------------------- SECTION HERO ----------------------------*/
+
+.hero {
+    background: url(../img/dance_7.jpg) no-repeat;
+    background-size: 160%;
+    |height: 100px;
+    background-position: left;
+}
+
+.caja {
+    padding: 0px 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.vertical-center {
+    min-height: 50%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cacac8;
+    padding: 20px 40px;
+}
+
+
+/*---------------------------- SECTION MENSAJE1 ----------------------------*/
+
+.

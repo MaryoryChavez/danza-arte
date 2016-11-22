@@ -1,64 +1,70 @@
 /* CSS SECTION */
-.container{
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-}
+
+
 .clasesVarias {
-	background-image: url(../img/old_wall.png);
-	background-repeat: repeat;
-	background-size: cover;
-	text-align: center;
-	padding: 40px;
-    
+    background-image: url(../img/old_wall.png);
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
 }
+
 .clasesVarias h1 {
-	text-align: center;
-	margin: 60px auto 10px auto;
-	font-size: 30px;  
+    text-align: center;
+    margin: 60px auto 10px auto;
+    font-size: 30px;
 }
+
 .clasesVarias td {
-	padding: 150px 15px;
-	width: auto;
-	height: 200px;
-	margin: 20px;
-    
+    padding: 150px 15px;
+    width: auto;
+    height: 200px;
+    margin: 20px;
 }
+
 .ballet {
-	background-image: url(../img/dance_12.jpg);
-	background-size:cover;
+    background-image: url(../img/dance_12.jpg);
+    background-size: cover;
 }
+
 .moderm {
-	background-image: url(../img/breakdance.jpg);
-	background-size :cover;
+    background-image: url(../img/breakdance.jpg);
+    background-size: cover;
 }
+
 .jazz {
-	background-image: url(../img/lirical-jazz.jpg);
-	background-size: cover;
+    background-image: url(../img/lirical-jazz.jpg);
+    background-size: cover;
 }
+
 .arabic {
-	background-image: url(../img/arabe.jpg);
-	background-size: cover;
+    background-image: url(../img/arabe.jpg);
+    background-size: cover;
 }
+
 .kids {
-	background-image: url(../img/little.jpg);
-	background-size: cover;
+    background-image: url(../img/little.jpg);
+    background-size: cover;
 }
+
 .yoga {
-	background-image: url(../img/yoga.jpg);
-	background-size: cover;
+    background-image: url(../img/yoga.jpg);
+    background-size: cover;
 }
+
 td div {
-	padding: 20px 15px;
-	text-align: center;
-	margin: 5px auto;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	padding: 10px auto 50px auto;
+    padding: 20px 15px;
+    text-align: center;
+    margin: 5px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px auto 50px auto;
 }
+
 .clasesVarias h2 {
-	font-size: 20px;
+    font-size: 20px;
 }
+
 .clasesVarias p {
-	font-size: 15px;
+    font-size: 15px;
 }
