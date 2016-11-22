@@ -1,1 +1,69 @@
-/* Inserta tu codigo que es común para todas las páginas aqui */
+/*---------------------------- GENERALES ----------------------------*/
+
+@font-face {
+    font-family: "Latolight";
+    src: url('../fonts/Latolight') format("truetype");
+}
+
+html,
+body {
+    background-color: #fff;
+}
+
+
+/*---------------------------- HEADER ----------------------------*/
+
+header {
+    font-family: "Latolight", sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 10px;
+}
+
+header ul {
+    padding-top: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+
+.contactanos{
+    background: url(../img/shoes_1.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 50px;
+}
+
+.contactanos h2{
+    color:  #1a2952;
+    font-weight: 900;
+}
+
+.contactanos a{
+    padding: 15px 253px;
+    background-color: #1a2952;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contactanos .boton{
+    padding-top: 30px;
+}
+
+
+/*---------------------------- FOOTER ----------------------------*/
+
+footer{
+    background-color: #1a2952;
+    color: #b8c6e3;
+    padding: 10px 0;
+}
+
+footer p{
+    padding-top: 15px;
+}

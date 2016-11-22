@@ -1,62 +1,31 @@
-/*---------------------------- GENERALES ----------------------------*/
-
-@font-face{    
-    font-family:"Latolight";
-    src: url('../fonts/Latolight') format("truetype");
-}
-
-html, body{
-    background-color: #fff;
-}
-
-/*---------------------------- HEADER ----------------------------*/
-
-header{
-    font-family: "Latolight", sans-serif;
-    text-align: center;
-}
-
-header h1{
-    padding-top: 10px;
-}
-
-header ul{
-    padding-top: 10px;
-}
-
-li{
-    display: inline-block;
-    margin: 0 30px;
-}
-
 
 /*---------------------------- SECTION HERO ----------------------------*/
 
-.hero{
+.hero {
     background: url(../img/dance_1.jpg) no-repeat;
     background-size: cover;
     height: 500px;
 }
 
-.texto{
+.texto {
     padding-left: 100px;
     width: 400px
 }
 
-.hero h1{
+.hero h1 {
     color: #c3c4c6;
     font-size: 5em;
     font-weight: bolder;
     padding-top: 20px;
 }
 
-.hero p{
+.hero p {
     color: #495565;
     font-weight: bolder;
     padding-bottom: 30px;
 }
 
-.hero a{
+.hero a {
     color: #fff;
     padding: 15px 40px;
     background-color: #020e1c;
@@ -65,30 +34,30 @@ li{
 
 /*---------------------------- SECTION MENSAJE1 ----------------------------*/
 
-.mensaje1{
+.mensaje1 {
     background: url(../img/textura_2.jpg);
     text-align: center;
     height: 350px;
 }
 
-.mensaje1 h3{
+.mensaje1 h3 {
     padding-top: 40px;
     font-size: 25px;
     font-weight: 500;
     font-family: "Latolight";
 }
 
-.imagen1{
+.imagen1 {
     height: 100px;
 }
 
-.mensaje1 img{
+.mensaje1 img {
     position: relative;
     width: 150px;
     bottom: 50px;
 }
 
-.mensaje1 a{
+.mensaje1 a {
     background-color: #1a2952;
     padding: 20px 80px;
     border-radius: 5px;
@@ -96,35 +65,35 @@ li{
     font-size: 1.1em;
 }
 
+
 /*---------------------------- SECTION TIRA1 ----------------------------*/
 
-.tira1{
+.tira1 {
     height: 300px;
     border: 2px solid #1a2952;
 }
 
-.columna{
+.columna {
     padding: 0;
 }
 
-.cuadro1{
+.cuadro1 {
     height: 300px;
 }
 
-.tira1 img{
+.tira1 img {
     width: 100%;
     position: absolute;
     clip: rect(0px 700px 296px 0px);
-    
     |z-index: 1;
 }
 
-.instruc{
+.instruc {
     z-index: 2;
     position: relative;
 }
 
-.tira1 h4{
+.tira1 h4 {
     position: absolute;
     z-index: 2;
     padding: 20px 60px;
@@ -134,4 +103,46 @@ li{
     color: #fff;
     border-radius: 5px;
 }
+
+
+/*---------------------------- SECTION MENSAJE2 ----------------------------*/
+
+.mensaje2 {
+    background: url(../img/textura_2.jpg);
+    padding: 120px 0;
+    text-align: center;
+    
+}
+
+.mensaje2 h2{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+    word-spacing: 2px;
+}
+
+/*---------------------------- SECTION MAPA----------------------------*/
+
+.mapa{
+    background-color: #1a2952;
+    padding: 50px 0;
+}
+
+.mapa p{
+    color: #cddcf3;
+    margin: 1px;
+}
+
+.mapa p:nth-child(2){
+color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.goomap{
+    text-align: center;
+}
+
+
+
 
